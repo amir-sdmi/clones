@@ -1,0 +1,13 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid;
+}
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--_otnfkq1v);
+  scrollbar-gutter: stable;
+  -webkit-font-smoothing: antialiased;
+}
