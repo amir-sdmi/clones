@@ -1,8 +1,10 @@
 .navbar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   font-size: 13px;
   color: #fff;
+  padding: 0 20px;
 }
 
 .navbar ul {
@@ -10,9 +12,39 @@
   display: flex;
   gap: 2rem;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
-.navItems ul {
+
+.logo {
+  padding-right: 40px;
+}
+
+.navItems {
+  flex: 1;
+  display: flex;
+  align-items: center;
   justify-content: flex-start;
+  position: relative;
+}
+
+.navItems ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+.pricing {
+  margin-left: auto;
+  padding-right: 2rem;
+}
+
+.loginSignup {
+  display: flex;
+  gap: 1rem;
 }
 
 .signup {

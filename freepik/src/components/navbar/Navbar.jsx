@@ -4,7 +4,9 @@ import styles from "./navbar.module.css";
 function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <Logo fillColor="#FFF" />
+      <div className={styles.logo}>
+        <Logo fillColor="#FFF" />
+      </div>
       <div className={styles.navItems}>
         <ul>
           <li>
@@ -31,13 +33,13 @@ function Navbar() {
           <li>
             <a>More</a>
           </li>
-          <li>
+          <li className={styles.pricing}>
             <a>Pricing</a>
           </li>
         </ul>
       </div>
-      <div>
-        <ul className={styles.loginSignup}>
+      <div className={styles.loginSignup}>
+        <ul>
           <li>
             <a>Login</a>
           </li>
