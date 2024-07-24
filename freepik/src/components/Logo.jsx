@@ -5,7 +5,6 @@ function Logo({ fillColor = "#1273EB" }) {
         width="160"
         height="44"
         fill={fillColor}
-        class="_121cna17 _121cna15"
         aria-labelledby="logo-:R6babm:"
         viewBox="0 0 712 105"
         xmlns="http://www.w3.org/2000/svg"
