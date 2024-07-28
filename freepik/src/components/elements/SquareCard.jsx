@@ -1,17 +1,12 @@
 import styles from "./squareCard.module.css";
-function SquareCard() {
+function SquareCard({ heading, description, image, link }) {
   return (
     <div className={styles.squareCard}>
-      <a href="#">
-        <img
-          className={styles.background}
-          src="https://fps.cdnpk.net/home/banner-tools/image-generator-bg.webp"
-        />
+      <a href={link}>
+        <img className={styles.background} src={image} />
         <div className={styles.squareCardText}>
-          <p className={styles.heading}>AI image generator</p>
-          <p className={styles.description}>
-            Create images from words in real time
-          </p>
+          <p className={styles.heading}>{heading}</p>
+          <p className={styles.description}>{description}</p>
         </div>
       </a>
     </div>
