@@ -4,8 +4,11 @@
   box-sizing: border-box;
   border: 0 solid;
 }
-body {
+html {
   margin: 0;
+  padding: 0;
+}
+body {
   font-family: var(--font-sans);
   font-size: var(--_otnfkq1v);
   scrollbar-gutter: stable;
