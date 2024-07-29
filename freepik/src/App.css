@@ -1,6 +1,21 @@
-.app {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif, Helvetica, Arial, sans-serif;
+  scrollbar-gutter: stable;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app {
   background-color: rgb(165, 124, 74);
   overflow-x: hidden;
 }

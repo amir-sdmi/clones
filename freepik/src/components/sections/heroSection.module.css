@@ -1,16 +1,17 @@
 .heroSection {
   position: relative;
-  width: 100vw;
-  height: 450px;
-  left: 50%;
-  margin-inline-start: -50vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  grid-column: 1 / -1 !important;
 }
 .heroSection img {
   width: 100%;
-  height: auto;
+  height: 450px;
   object-fit: cover;
+}
+.heroOverlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.heroContent {
+  position: relative;
 }
