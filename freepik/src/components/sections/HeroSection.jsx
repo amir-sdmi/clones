@@ -1,4 +1,6 @@
+import MegaSearch from "../elements/MegaSearch";
 import styles from "./heroSection.module.css";
+
 function HeroSection() {
   return (
     <div className={styles.heroSection}>
@@ -10,6 +12,7 @@ function HeroSection() {
           High-quality photos, videos, vectors, PSD, AI images, icons... to go
           from ideas to outstanding designs
         </p>
+        <MegaSearch />
       </div>
     </div>
   );

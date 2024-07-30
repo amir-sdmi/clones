@@ -1,6 +1,8 @@
 .navbar {
   position: relative;
+  z-index: 4;
   margin-bottom: -65px;
+  height: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
