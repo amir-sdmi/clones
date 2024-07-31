@@ -1,0 +1,18 @@
+.button {
+  border-radius: 3px;
+  width: 100px;
+  display: flex;
+  padding: 15px 15px;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 600;
+}
+.primary {
+  background-color: #000;
+  color: #e44747;
+}
+
+.secondary {
+  background-color: rgb(51, 106, 234);
+  color: #fff;
+}

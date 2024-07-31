@@ -1,0 +1,57 @@
+.navbar {
+  position: relative;
+  margin-bottom: -65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #fff;
+  z-index: 4;
+  padding: 0 20px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  padding-right: 40px;
+}
+
+.navItems {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.navItems ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+.pricing {
+  margin-left: auto;
+  padding-right: 2rem;
+}
+
+.loginSignup {
+  display: flex;
+  gap: 1rem;
+}
+
+.signup {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  padding: 4px 10px;
+}

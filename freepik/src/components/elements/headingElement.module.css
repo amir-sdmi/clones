@@ -1,0 +1,12 @@
+.heading {
+  text-align: center;
+}
+.tagline {
+  text-transform: uppercase;
+}
+.header {
+}
+.description {
+  font-size: 17px;
+  color: rgba(34, 34, 34, 0.25);
+}
