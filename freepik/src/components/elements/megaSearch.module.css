@@ -1,10 +1,73 @@
 .megaSearch {
-  padding: 0 70px;
+  border-radius: 3px;
+  overflow: hidden;
+  width: 100%;
   max-width: 1096px;
   height: 56px;
+  background-color: rgb(255, 255, 255);
+  padding-right: 10px;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  border-radius: 3px;
+}
+.dropdown {
+  padding: 0 10px;
+  width: 195px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-right: 1px solid rgba(140, 140, 140, 0.259);
+  background-color: transparent;
+}
+.dropdown:hover {
+  background-color: rgba(140, 140, 140, 0.144);
+}
+.dropdownText {
+  width: 127px;
+  text-align: left;
+  padding-left: 15px;
+}
+.dropdown span:last-child {
+  margin-left: auto;
+}
+.inputWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
   align-items: center;
 }
-.megaSearch input {
+.input {
+  width: 100%;
+  height: 100%;
+}
+.inputWrapper button {
+  padding: 10px;
+  background-color: transparent;
+  border-right: 1px solid rgba(140, 140, 140, 0.444);
+}
+
+.upload {
+  min-width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #00000070;
+  border-radius: 3px;
+}
+.search {
+  background-color: rgb(51, 106, 234);
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  border-radius: 3px;
+  color: #fff;
 }

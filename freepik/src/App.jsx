@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import HeroSection from "./components/sections/HeroSection";
 import SquareCardSlider from "./components/sections/SquareCardSlider";
 import Container from "./components/Container";
+import MegaSearch from "./components/elements/MegaSearch";
 
 function App() {
   return (

@@ -7,12 +7,17 @@
   border: 0 solid;
   margin: 0;
   padding: 0;
-}
-
-body {
   font-family: "Inter", sans-serif, Helvetica, Arial, sans-serif;
   scrollbar-gutter: stable;
   -webkit-font-smoothing: antialiased;
+  list-style-type: none;
+}
+*:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 .app {
